@@ -100,7 +100,7 @@ hi Comment           guifg=#bdbdbd guibg=NONE    gui=NONE
 " hi Constant          guifg=#994128 guibg=NONE    gui=NONE
 " hi Constant          guifg=#eb641a guibg=NONE    gui=NONE
 " hi Constant          guifg=#09643f guibg=NONE    gui=NONE
-" select hi Constant          guifg=#e82ba1 guibg=NONE    gui=NONE
+" hi Constant          guifg=#e82ba1 guibg=NONE    gui=NONE
 hi Constant          guifg=#4aa874 guibg=NONE    gui=NONE
 " hi Constant          guifg=#c55d30 guibg=NONE    gui=NONE
 " hi Constant          guifg=#bf760a guibg=NONE    gui=NONE
@@ -198,26 +198,33 @@ hi Underlined        guifg=#6a5acd    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Ignore            guifg=NONE    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-" hi Error             guifg=NONE    guibg=NONE    gui=NONE
+hi Error             guifg=#ff0000    guibg=#ffcdcd    gui=NONE
+" hi Error             guifg=#ff0000    guibg=#ffe7e7    gui=NONE
 " ---------------------------------------------------------------------
 hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=NONE
 
-"
 " ---------------------------------------------------------------------
-" Extended Highlighting
+" }}}
+"
+" Extended Highlighting {{{
+" ---------------------------------------------------------------------
 
-" hi NonText       guifg=NONE    guibg=NONE    gui=NONE
-" hi Visual        guifg=#ffffff guibg=#a65900 gui=NONE
-hi Visual        guifg=#0b0e0f guibg=#ffff4d gui=NONE
-" hi ErrorMsg      guifg=NONE    guibg=NONE    gui=NONE
-hi IncSearch     guifg=#0b0e0f    guibg=#ffff4d    gui=NONE
-" hi Search        guifg=NONE    guibg=NONE    gui=NONE
-" hi MoreMsg       guifg=NONE    guibg=NONE    gui=NONE
-" hi ModeMsg       guifg=NONE    guibg=NONE    gui=NONE
-" hi LineNr        guifg=NONE    guibg=NONE    gui=NONE
-" hi VertSplit     guifg=NONE    guibg=NONE    gui=NONE
+hi NonText       guifg=#b0b0b0    guibg=NONE    gui=NONE
+hi Visual        guifg=#0b0e0f    guibg=#aaaaaa gui=NONE
+" hi ErrorMsg      guifg=#ff0000    guibg=#ffe7e7    gui=NONE
+hi ErrorMsg      guifg=#ff0000    guibg=#ffff80    gui=NONE
+hi IncSearch     guifg=#0b0e0f    guibg=#ffcc00    gui=NONE
+hi Search        guifg=#0b0e0f    guibg=#ffcc00    gui=NONE
+hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
+hi ModeMsg       guifg=#505050    guibg=NONE    gui=NONE
+hi LineNr        guifg=#b0b0b0    guibg=NONE    gui=NONE
+hi VertSplit     guifg=#5b5b5b    guibg=#d0d0d0    gui=NONE
 hi VisualNOS     guifg=#0b0e0f    guibg=#ffff4d    gui=NONE
-" hi Folded        guifg=NONE    guibg=NONE    gui=NONE
+" hi Folded        guifg=#696969    guibg=#c7c7c7    gui=NONE
+" hi Folded        guifg=#696969    guibg=#d4d4d4    gui=NONE
+" hi Folded        guifg=#c7c7c7    guibg=#e1e1e1    gui=NONE
+hi Folded        guifg=#a0a0a0    guibg=#e1e1e1    gui=NONE
+hi FoldColumn    guifg=#a0a0a0    guibg=#eeeeee    gui=NONE
 hi DiffAdd       guifg=#ffffff guibg=#006600 gui=NONE
 hi DiffChange    guifg=#ffffff guibg=#007878 gui=NONE
 hi DiffDelete    guifg=#ff0101 guibg=#9a0000 gui=NONE
@@ -226,54 +233,73 @@ hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
 " hi SpellCap      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellRare     guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellLocal    guifg=NONE    guibg=NONE    gui=NONE
-" hi StatusLine    guifg=NONE    guibg=NONE    gui=NONE
-" hi StatusLineNC  guifg=NONE    guibg=NONE    gui=NONE
-" hi Pmenu         guifg=NONE    guibg=NONE    gui=NONE
-" hi PmenuSel      guifg=NONE    guibg=NONE    gui=NONE
-" hi PmenuSbar     guifg=NONE    guibg=NONE    gui=NONE
-" hi PmenuThumb    guifg=NONE    guibg=NONE    gui=NONE
-" hi MatchParen    guifg=NONE    guibg=NONE    gui=NONE
+hi SpellBad      guifg=#ff0000 guibg=#ffff9a gui=NONE
+hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
+hi SpellRare     guifg=#d80000 guibg=#ffff9a gui=NONE
+hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
+" hi StatusLine    guifg=#787878    guibg=#dadada    gui=NONE
+hi StatusLine    guifg=#5b5b5b    guibg=#d0d0d0    gui=NONE
+" hi StatusLine    guifg=#787878    guibg=#c7c7c7    gui=NONE
+" hi StatusLineNC  guifg=#c7c7c7    guibg=#787878    gui=NONE
+hi StatusLineNC  guifg=#c7c7c7    guibg=#e3e3e3    gui=NONE
+hi Pmenu         guifg=#454545    guibg=#bbbbbb    gui=NONE
+hi PmenuSel      guifg=#eeeeee    guibg=#0d3c6e    gui=NONE
+hi PmenuSbar     guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
+hi PmenuThumb    guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
+hi MatchParen    guifg=#ffffff    guibg=#ff4400    gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#dde4e6 gui=NONE
 hi CursorLine    guifg=NONE guibg=#e5e5e5 gui=NONE
-" hi CursorLineNr  guifg=NONE    guibg=NONE    gui=NONE
-hi CursorColumn  guifg=NONE    guibg=#dde4e6 gui=NONE
+" hi CursorLineNr  guifg=#346d51    guibg=NONE    gui=NONE
+" hi CursorLineNr  guifg=#e82ba1    guibg=NONE    gui=NONE
+hi CursorLineNr  guifg=#e11896    guibg=NONE    gui=NONE
+hi CursorColumn  guifg=NONE    guibg=#e5e5e5 gui=NONE
 " hi ColorColumn   guifg=NONE    guibg=#ffa07a    gui=NONE
+" hi ColorColumn   guifg=NONE    guibg=#ffc4ad    gui=NONE
 hi ColorColumn   guifg=NONE    guibg=#ffd7c7    gui=NONE
-" hi WildMenu      guifg=NONE    guibg=NONE    gui=NONE
+" hi WildMenu      guifg=#eeeeee    guibg=#787878    gui=NONE
+" hi WildMenu      guifg=#0b0e0f    guibg=#0faf8d    gui=NONE
+hi WildMenu      guifg=#eeeeee    guibg=#b7410e    gui=NONE
 hi SignColumn    guifg=NONE    guibg=#eeeeee    gui=NONE
+"
+" ---------------------------------------------------------------------
 " }}}
 "
 " Language Specifics: {{{
-"### " ---------------------------------------------------------------------
-"### " These are language specifics. These are set explicitly to override the group
-"### " highlighting provided by vim (Simply to make the language that you're working
-"### " on more awesome, and fun to work with !)
-"### " ---------------------------------------------------------------------
-"### " Python Specifics
-"### "hi pythonDot        guifg=#00ffa5 guibg=NONE gui=NONE
-"### "hi pythonDot        guifg=#ffff31 guibg=NONE gui=NONE
-"### "hi pythonDot        guifg=#ff0800 guibg=NONE gui=NONE
-"### hi pythonDot                 guifg=#d70a53 guibg=NONE gui=NONE
-"### hi pythonParameters          guifg=#bada55 guibg=NONE gui=NONE
-"### hi pythonClassParameters     guifg=#bada55 guibg=NONE gui=NONE
-"### hi pythonClass               guifg=#00bcbc guibg=NONE gui=NONE
-"### "
-"### " ---------------------------------------------------------------------
-"### "  Ruby Specifics
-"### hi rubyInterpolation      guifg=#ff4040 guibg=NONE gui=NONE
-"### "hi rubyMethodBlock        guifg=#ff8da1 guibg=NONE gui=NONE
-"### "hi rubyMethodBlock        guifg=#8ddaff guibg=NONE gui=NONE
-"### hi rubyMethodBlock        guifg=#ffb28d guibg=NONE gui=NONE
-"### hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
-"### hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
-"### hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
-"### hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
-"### "
-"### " ---------------------------------------------------------------------
+" ---------------------------------------------------------------------
+" These are language specifics. These are set explicitly to override the group
+" highlighting provided by vim (Simply to make the language that you're working
+" on more awesome, and fun to work with !)
+" ---------------------------------------------------------------------
+" Python Specifics
+"hi pythonDot        guifg=#00ffa5 guibg=NONE gui=NONE
+"hi pythonDot        guifg=#ffff31 guibg=NONE gui=NONE
+"hi pythonDot        guifg=#ff0800 guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#d70a53 guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#00bcbc guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#005aff guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#1a6bff guibg=NONE gui=NONE
+hi pythonDot                 guifg=#003eb1 guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#800080 guibg=NONE gui=NONE
+hi pythonParameters          guifg=#026440 guibg=NONE gui=NONE
+hi pythonClassParameters     guifg=#026440 guibg=NONE gui=NONE
+hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+"  Ruby Specifics
+""" hi rubyInterpolation      guifg=#ff4040 guibg=NONE gui=NONE
+""" "hi rubyMethodBlock        guifg=#ff8da1 guibg=NONE gui=NONE
+""" "hi rubyMethodBlock        guifg=#8ddaff guibg=NONE gui=NONE
+""" hi rubyMethodBlock        guifg=#ffb28d guibg=NONE gui=NONE
+""" hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
+""" hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
+""" hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
+""" hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
 " }}}
-" 
+"
 " Extras: {{{
 " ---------------------------------------------------------------------
 " These are extra parts for highlighting certain external plugins
