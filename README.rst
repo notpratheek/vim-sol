@@ -25,7 +25,7 @@ Requirements
 This colourscheme is intended for use on:
 
 -   gVim 7.4 (and 7.3) for Linux, Mac and Windows.
--   Vim (Console version is in the works !)
+-   Vim 7.4 (and 7.3) for Linux, Mac and Windows.
 
 Screenshots
 -----------
