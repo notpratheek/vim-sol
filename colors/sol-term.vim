@@ -22,8 +22,8 @@
 " Currently,
 "
 " This colourscheme is intended for use on:
-" - gVim >= 7.3 for Linux, Mac and Windows. (Since, all colours are in hex
-"   values, hence works with gvim. Terminal vim will be supported in future)
+" - Console Vim >= 7.3 for Linux, Mac and Windows.
+"   (Use sol.vim, if you use gvim rather than console vim)
 "
 " ---------------------------------------------------------------------
 " INSTALLATION:
