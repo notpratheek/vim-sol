@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.1
+" Version: 0.0.2
 "
 "
 " TODO: {{{
@@ -320,6 +320,25 @@ hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
 hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
+"
+" CtrlP (https://github.com/kien/ctrlp.vim)
+"
+" hi CtrlPMatch     guifg=#cf4910 guibg=NONE    gui=NONE
+" hi CtrlPMatch     guifg=#839e2e guibg=#cee094    gui=NONE
+" hi CtrlPMatch     guifg=#728927 guibg=NONE    gui=NONE
+hi CtrlPMatch      guifg=#008000 guibg=#ddeedd    gui=NONE
+" hi CtrlPMatch     guifg=#008000 guibg=#ddffdd    gui=NONE
+" hi CtrlPMatch     guifg=#008000 guibg=#eeffee    gui=NONE
+hi CtrlPLinePre    guifg=#aaaaaa guibg=NONE    gui=NONE
+hi CtrlPPrtBase    guifg=#aaaaaa guibg=NONE    gui=NONE
+hi CtrlPPrtCursor  guifg=#0b0e0f guibg=#cccccc gui=NONE
+hi CtrlPTabExtra   guifg=#ff4162 guibg=NONE    gui=NONE
+hi CtrlPBufName    guifg=#ff0000 guibg=#ffffff    gui=NONE
+hi CtrlPMode1      guifg=#007fff guibg=NONE    gui=NONE
+hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
+"
+" ---------------------------------------------------------------------
+"
 " }}}
 "
 "

@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.1
+" Version: 0.0.2
 "
 "
 " TODO: {{{
@@ -198,6 +198,19 @@ highlight StartifySlash guifg=#474747 guibg=NONE gui=NONE ctermfg=238 cterm=NONE
 highlight StartifyFile guifg=#fa8072 guibg=NONE gui=NONE ctermfg=210 cterm=NONE
 highlight StartifyHeader guifg=#f0e68c guibg=NONE gui=NONE ctermfg=186 cterm=NONE
 highlight StartifyFooter guifg=#a0522d guibg=NONE gui=NONE ctermfg=130 cterm=NONE
+"
+" ---------------------------------------------------------------------
+"
+" CtrlP (https://github.com/kien/ctrlp.vim)
+"
+hi CtrlPMatch      ctermfg=28   ctermbg=194  cterm=NONE
+hi CtrlPLinePre    ctermfg=248  ctermbg=NONE cterm=NONE
+hi CtrlPPrtBase    ctermfg=248  ctermbg=NONE cterm=NONE
+hi CtrlPPrtCursor  ctermfg=232  ctermbg=252  cterm=NONE
+hi CtrlPTabExtra   ctermfg=197  ctermbg=NONE cterm=NONE
+hi CtrlPBufName    ctermfg=196  ctermbg=231  cterm=NONE
+hi CtrlPMode1      ctermfg=33   ctermbg=NONE cterm=NONE
+hi CtrlPMode2      ctermfg=166  ctermbg=NONE cterm=NONE
 "
 " ---------------------------------------------------------------------
 " }}}
