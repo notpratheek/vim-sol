@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.2
+" Version: 0.0.3
 "
 "
 " TODO: {{{
@@ -101,7 +101,8 @@ hi Comment           guifg=#bdbdbd guibg=NONE    gui=NONE
 " hi Constant          guifg=#eb641a guibg=NONE    gui=NONE
 " hi Constant          guifg=#09643f guibg=NONE    gui=NONE
 " hi Constant          guifg=#e82ba1 guibg=NONE    gui=NONE
-hi Constant          guifg=#4aa874 guibg=NONE    gui=NONE
+" hi Constant          guifg=#4aa874 guibg=NONE    gui=NONE
+hi Constant          guifg=#09543f guibg=NONE    gui=NONE
 " hi Constant          guifg=#c55d30 guibg=NONE    gui=NONE
 " hi Constant          guifg=#bf760a guibg=NONE    gui=NONE
 " hi String            guifg=#60bdf4    guibg=NONE    gui=NONE
@@ -109,7 +110,9 @@ hi String            guifg=#005aff    guibg=NONE    gui=NONE
 " hi Character         guifg=#ff005a    guibg=NONE    gui=NONE
 hi Character         guifg=#543978    guibg=NONE    gui=NONE
 " hi Number            guifg=NONE    guibg=NONE    gui=NONE
-" hi Boolean           guifg=NONE    guibg=NONE    gui=NONE
+" hi Boolean           guifg=#cc6600    guibg=NONE    gui=NONE
+" hi Boolean           guifg=#ff6b00    guibg=NONE    gui=NONE
+hi Boolean           guifg=#eb6300    guibg=NONE    gui=NONE
 " hi Float             guifg=NONE    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Identifier        guifg=#008080    guibg=NONE    gui=NONE

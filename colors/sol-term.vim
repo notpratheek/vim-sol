@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.2
+" Version: 0.0.3
 "
 "
 " TODO: {{{
@@ -86,9 +86,10 @@ hi Title        ctermfg=NONE ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 hi Comment      ctermfg=250  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
-hi Constant     ctermfg=72   ctermbg=NONE cterm=NONE
+hi Constant     ctermfg=23   ctermbg=NONE cterm=NONE
 hi String       ctermfg=27   ctermbg=NONE cterm=NONE
 hi Character    ctermfg=54   ctermbg=NONE cterm=NONE
+hi Boolean      ctermfg=160  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 hi Identifier   ctermfg=161  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
