@@ -310,17 +310,18 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "
 " Startify (https://github.com/mhinz/vim-startify)
 "
-hi StartifyBracket  guifg=#b06bfc guibg=NONE gui=NONE
-hi StartifyNumber   guifg=#bada55 guibg=NONE gui=NONE
-hi StartifySpecial  guifg=#2e8857 guibg=NONE gui=NONE
-hi StartifyPath     guifg=#545454 guibg=NONE gui=NONE
-hi StartifySlash    guifg=#474747 guibg=NONE gui=NONE
+hi StartifyBracket  guifg=#008080 guibg=NONE gui=NONE
+hi StartifyNumber   guifg=#ff5028 guibg=NONE gui=NONE
+hi StartifySpecial  guifg=#2aa198 guibg=NONE gui=NONE
+hi StartifyPath     guifg=#aeaeae guibg=NONE gui=NONE
+hi StartifySlash    guifg=#c7c7c7 guibg=NONE gui=NONE
 " hi StartifyFile     guifg=#00ffa5 guibg=NONE gui=NONE
 " hi StartifyFile     guifg=#2aa198 guibg=NONE gui=NONE
 " hi StartifyFile     guifg=#f0e68c guibg=NONE gui=NONE
-hi StartifyFile     guifg=#fa8072 guibg=NONE gui=NONE
+hi StartifyFile     guifg=#0faf8d guibg=NONE gui=NONE
 hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
 hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
+hi StartifySection  guifg=#0d3c6e guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
 "
